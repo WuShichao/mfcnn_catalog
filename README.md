@@ -18,8 +18,9 @@ Here, we only offer the triggers which pass the `CBC-CAT3` test, so totally 2242
 ## Analysis Details ##
 The details of `MFCNN` and our analysis are available in this [preprint paper](https://arxiv.org/abs/xxxx.xxxxx).
 
+
 ## Accessing the Catalog: mfcnn_catalog_O1.hdf ##
-There are two datasets within the file, `/known_events` and `/complete`. The `complete` set is the full dataset from our analysis.
+There are two groups within the file, `/known_events` and `/complete`. Under each group, you can find a dataset with the same name. The `complete` dataset is the full dataset from our analysis.
 
 
 ```python
@@ -30,7 +31,24 @@ catalog = h5py.File('./mfcnn_catalog_O1.hdf', 'r')
 # Get a numpy structured array of the candidate event GPS time and duration.
 all_candidates = catalog['complete']
 bbh_candidates = catalog['known_events']
+
+# Show the GPS time of GW150914, GW151012 & GW151226.
+print(bbh_candidates['known_events'][0])
+# Show the trigger duration of GW150914, GW151012 & GW151226.
+print(bbh_candidates['known_events'][1])
+
+# Just like above, we can show all triggers' GPS time & trigger duration.
+print(all_candidates['complete'][0])
+print(all_candidates['complete'][1])
 ```
+
+##### File format #####
+Both datasets are structured arrays which have the following columns.
+
+| Column           | Description                                                                                                                         |
+|---------------|-------------------------------------------------------------------------------------------------------------------------------------|
+| 0 |     The GPS time of `MFCNN` triggers.                                        |
+| 1 |     The GPS time-centric trigger duration (in seconds).                                    |
 
 
 ## License and Citation
