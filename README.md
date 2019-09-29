@@ -72,5 +72,5 @@ We encourage use of these data in derivative works. If you use the material prov
 
 
 ## Acknowledgments ##
-We are thankful to Hao Wei and Jing Li for many helpful discussions. This work was supported by the NSFC (No. 11690023 and No. 11622546) and by the Collaborative research program of the Institute for Cosmic Ray Research (ICRR), the University of Tokyo. Z. Cao was supported by “the Fundamental Research Funds for the Central Universities", "the Interdiscipline Research Funds of Beijing Normal University" and the Strategic
+We are thankful to Hao Wei and Jing Li for many helpful discussions. This work was supported by the NSFC (No. 11690023 and No. 11622546) and by the Collaborative research program of the Institute for Cosmic Ray Research (ICRR), the University of Tokyo. Z. Cao was supported by "the Fundamental Research Funds for the Central Universities", "the Interdiscipline Research Funds of Beijing Normal University" and the Strategic
 Priority Research Program of the Chinese Academy of Sciences, grant No. XDB23040100.
