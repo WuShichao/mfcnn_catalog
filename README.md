@@ -19,7 +19,7 @@ Here, we only offer the triggers which pass the `CBC-CAT3` test, so totally 2242
 The details of `MFCNN` and our analysis are available in this [preprint paper](https://arxiv.org/abs/xxxx.xxxxx).
 
 
-## Accessing the Catalog: mfcnn_catalog_O1.hdf ##
+## Accessing the Catalog: mfcnn_catalog_O1.hdf5 ##
 There are two groups within the file, `/known_events` and `/complete`. Under each group, you can find a dataset with the same name. The `complete` dataset is the full dataset from our analysis.
 
 
