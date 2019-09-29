@@ -34,9 +34,9 @@ bbh_candidates = catalog['known_events']
 
 
 ## License and Citation
-![Creative Commons License](https://i.creativecommons.org/l/by-sa/3.0/us/88x31.png "Creative Commons License")
+![Creative Commons License](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png "Creative Commons License")
 
-This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 United States License](http://creativecommons.org/licenses/by-sa/3.0/us/).
+This work is licensed under a [Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 We encourage use of these data in derivative works. If you use the material provided here, please cite the paper using the reference:
 
