@@ -26,7 +26,7 @@ There are two groups within the file, `/known_events` and `/complete`. Under eac
 ```python
 import h5py
 
-catalog = h5py.File('./mfcnn_catalog_O1.hdf', 'r')
+catalog = h5py.File('./mfcnn_catalog_O1.hdf5', 'r')
 
 # Get a numpy structured array of the candidate event GPS time and duration.
 all_candidates = catalog['complete']
