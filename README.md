@@ -16,7 +16,7 @@ Here, we only offer the triggers which pass the `CBC-CAT3` test, so totally 2242
 
 
 ## Analysis Details ##
-The details of `MFCNN` and our analysis are available in this [preprint paper](https://arxiv.org/abs/xxxx.xxxxx).
+The details of `MFCNN` and our analysis are available in this [preprint paper](https://arxiv.org/abs/1909.13442).
 
 
 ## Accessing the Catalog: mfcnn_catalog_O1.hdf5 ##
@@ -63,10 +63,10 @@ We encourage use of these data in derivative works. If you use the material prov
       author         = "He Wang, Zhoujian Cao, Xiaolin Liu, Shichao Wu, and Jian-Yang Zhu",
       title          = "{Gravitational wave signal recognition of O1 data by deep learning}",
       year           = "2019",
-      eprint         = "xxxx.xxxxx",
+      eprint         = "1909.13442",
       archivePrefix  = "arXiv",
-      primaryClass   = "gr-qc",
-      SLACcitation   = "%%CITATION = ARXIV:xxxx.xxxxx;%%"
+      primaryClass   = "astro-ph.IM",
+      SLACcitation   = "%%CITATION = ARXIV:1909.13442;%%"
 }
 ```
 
