@@ -59,14 +59,11 @@ This work is licensed under a [Attribution-NonCommercial-ShareAlike 4.0 Internat
 We encourage use of these data in derivative works. If you use the material provided here, please cite the paper using the reference:
 
 ```
-@article{Wang:2019XXX,
-      author         = "He Wang, Zhoujian Cao, Xiaolin Liu, Shichao Wu, and Jian-Yang Zhu",
-      title          = "{Gravitational wave signal recognition of O1 data by deep learning}",
-      year           = "2019",
-      eprint         = "1909.13442",
-      archivePrefix  = "arXiv",
-      primaryClass   = "astro-ph.IM",
-      SLACcitation   = "%%CITATION = ARXIV:1909.13442;%%"
+@article{wang2019gravitational,
+  title={Gravitational wave signal recognition of O1 data by deep learning},
+  author={Wang, He and Cao, Zhoujian and Liu, Xiaolin and Wu, Shichao and Zhu, Jian-Yang},
+  journal={arXiv preprint arXiv:1909.13442},
+  year={2019}
 }
 ```
 
