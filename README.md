@@ -10,9 +10,9 @@
 ## Introduction ##
 `MFCNN` is our GW Event Trigger Generator (ETG), which is a matched-filtering-aided CNN.
 
-This repository contains the `MFCNN` GW triggers catalog, for now, we offer O1 GW triggers triggered by `MFCNN`, we will add O2 & O3 triggers here in the near future. If leaving the data quality alone, we find 3955 triggers in O1 which include `GW150914`, `GW151012` and `GW151226`. If we consider only the data which pass the `CBC_CAT3` test, there are 2242 triggers in O1.
+This repository contains the `MFCNN` GW triggers catalog, for now, we offer O1 GW triggers triggered by `MFCNN`, we will add O2 & O3 triggers here in the near future. If leaving the data quality alone, we find 3363 triggers in O1 which include `GW150914`, `GW151012` and `GW151226`. If we consider only the data which pass the `CBC_CAT3` test, there are 2069 triggers in O1.
 
-Here, we only offer the triggers which pass the `CBC_CAT3` test, so totally 2242 triggers in O1 data.
+Here, we only offer the triggers which pass the `CBC_CAT3` test, so totally 2069 triggers in O1 data.
 
 
 ## Analysis Details ##
