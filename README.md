@@ -33,13 +33,13 @@ all_candidates = catalog['complete']
 bbh_candidates = catalog['known_events']
 
 # Show the GPS time of GW150914, GW151012 & GW151226.
-print(bbh_candidates['known_events'][0])
+print(bbh_candidates[:,0])
 # Show the trigger duration of GW150914, GW151012 & GW151226.
-print(bbh_candidates['known_events'][1])
+print(bbh_candidates[:,1])
 
 # Just like above, we can show all triggers' GPS time & trigger duration.
-print(all_candidates['complete'][0])
-print(all_candidates['complete'][1])
+print(all_candidates[:,0])
+print(all_candidates[:,1])
 ```
 
 ##### File format #####
