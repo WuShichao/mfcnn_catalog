@@ -1,5 +1,5 @@
-# Gravitational Wave Signal Recognition of O1 Data by Deep Learning
-**He Wang<sup>1</sup>, Zhoujian Cao<sup>∗,2</sup>, Xiaolin Liu<sup>2</sup>, Shichao Wu<sup>2</sup>, and Jian-Yang Zhu<sup>1</sup>**
+# Gravitational-wave signal recognition of LIGO data by deep learning
+**He Wang<sup>1</sup>, Shichao Wu<sup>2</sup>, Zhoujian Cao<sup>∗,2</sup>, Xiaolin Liu<sup>2</sup> and Jian-Yang Zhu<sup>1</sup>**
 
 
 <sub>1. Department of Physics, Beijing Normal University, Beijing 100875, China</sub>
@@ -16,7 +16,7 @@ Here, we only offer the triggers which pass the `CBC_CAT3` test, so totally 2069
 
 
 ## Analysis Details ##
-The details of `MFCNN` and our analysis are available in this [preprint paper](https://arxiv.org/abs/1909.13442).
+The details of `MFCNN` and our analysis are available in [our paper](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.101.104003).
 
 
 ## Accessing the Catalog: mfcnn_catalog_O1.hdf5 ##
@@ -59,11 +59,19 @@ This work is licensed under a [Attribution-NonCommercial-ShareAlike 4.0 Internat
 We encourage use of these data in derivative works. If you use the material provided here, please cite the paper using the reference:
 
 ```
-@article{wang2019gravitational,
-  title={Gravitational wave signal recognition of O1 data by deep learning},
-  author={Wang, He and Cao, Zhoujian and Liu, Xiaolin and Wu, Shichao and Zhu, Jian-Yang},
-  journal={arXiv preprint arXiv:1909.13442},
-  year={2019}
+@article{PhysRevD.101.104003,
+  title = {Gravitational-wave signal recognition of LIGO data by deep learning},
+  author = {Wang, He and Wu, Shichao and Cao, Zhoujian and Liu, Xiaolin and Zhu, Jian-Yang},
+  journal = {Phys. Rev. D},
+  volume = {101},
+  issue = {10},
+  pages = {104003},
+  numpages = {10},
+  year = {2020},
+  month = {May},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevD.101.104003},
+  url = {https://link.aps.org/doi/10.1103/PhysRevD.101.104003}
 }
 ```
 
